@@ -1,0 +1,77 @@
+#
+# Newsbeuter's example config
+#
+bind-key   ESC     quit
+bind-key   j       down   feedlist
+bind-key   k       up     feedlist
+bind-key   LEFT    quit   feedlist
+bind-key   RIGHT   open   feedlist
+
+bind-key   j       next        articlelist
+bind-key   k       prev        articlelist
+bind-key   J       next-feed   articlelist
+bind-key   K       prev-feed   articlelist
+bind-key   LEFT    quit        articlelist
+bind-key   RIGHT   open        articlelist
+
+bind-key   j       down          article
+bind-key   k       up            article
+bind-key   J       next          article
+bind-key   K       prev          article
+bind-key   UP      pageup        article
+bind-key   DOWN    pagedown      article
+bind-key   RIGHT   next-unread   article
+bind-key   LEFT    prev-unread   article
+
+bind-key   j       down tagselection
+bind-key   k       up tagselection
+
+bind-key ^D pagedown
+#
+# Newsbeuter's example config
+#
+bind-key   ESC     quit
+bind-key   j       down   feedlist
+bind-key   k       up     feedlist
+bind-key   LEFT    quit   feedlist
+bind-key   RIGHT   open   feedlist
+
+bind-key   j       next        articlelist
+bind-key   k       prev        articlelist
+bind-key   J       next-feed   articlelist
+bind-key   K       prev-feed   articlelist
+bind-key   LEFT    quit        articlelist
+bind-key   RIGHT   open        articlelist
+
+bind-key   j       down          article
+bind-key   k       up            article
+bind-key   J       next          article
+bind-key   K       prev          article
+bind-key   UP      pageup        article
+bind-key   DOWN    pagedown      article
+bind-key   LEFT    quit          article
+bind-key   RIGHT   next-unread   article
+# bind-key   RIGHT   next-unread   article
+
+bind-key   j       down tagselection
+bind-key   k       up tagselection
+
+bind-key ^D pagedown
+bind-key ^U pageup
+bind-key g  home
+bind-key G  end
+
+browser "w3m %u"
+# html-renderer "w3m -dump -T text/html"
+article-sort-order date-asc
+
+auto-reload no
+# reload-time 120
+# reload-threads 8
+# download-retries 2
+# download-timeout 10
+# prepopulate-query-feeds yes
+
+
+
+
